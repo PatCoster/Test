@@ -13,6 +13,7 @@ package student;
 public class Student {
     public String name;
     public int id;
+    public int test;
     
     /**
      * @param args the command line arguments
@@ -44,6 +45,10 @@ public class Student {
      */
     public void setId(int id) {
         this.id = id;
+    }
+    
+    public void setTest(int test){
+        this.test = test;
     }
     
 }
